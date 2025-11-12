@@ -29,3 +29,12 @@ print(1 < x < 20)         # True
 
 # Challenge: Create a password rule using logical operators:
 
+password = input("Enter your password: ")
+# Check password rule
+
+has_digit = any(char.isdigit() for char in password)
+
+if len(password) >= 8 and has_digit and not(" " in password):
+    print("Password is valid")
+else:
+    print("Password does not meet the rules.")
