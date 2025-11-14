@@ -112,3 +112,30 @@ print(numbers)
 # .remove() - removes the firs occurrence of a specific Value 
 # .sort() - sorts the list in ascending order
 # .reverse() - reverses the order of the list
+##########################################################################################################################
+#why is a list more usrful than a variable?
+# a list can hold multiple values, while a variable can only hold one value at a time
+
+cakes = ['chococlate', 'vailla', 'red velvet', 'carrot']
+print(cakes)
+
+# access the first item
+print9cakes[0]) # chocolate
+#access the last item 
+print(cakes[-1]) # carrot
+#want to chocolate cake instead of vanilla 
+cakes[0] = 'strawberry'
+print(cakes) # ['strawverry', 'vanilla', 'red velvet' , 'carrot' ]
+#add a new cake to the end of the list
+cakes.append('lemon')
+print(cakes)
+cakes[1] = 'chocolate'
+print(cakes) 
+#remove the last cake 
+cakes.pop()
+print(cakes) # ['strawberry' , 'chocolate' , 'red velvet'
+#instert a new cake at index 2
+cakes.insert92, 'funfetti')
+print(cakes) # ['strawberry', 'chocolate', funfetti',
+
+
