@@ -89,16 +89,21 @@ print(numbers)
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
-
+foods = ["pizza", "sushi", "tacos", "pasta", "ice cream"] 
 # Print the second and last item.
-
+print(foods[1])  
+print(foods[-1])
 # Add a new item using .append().
-
+foods.append("burgers")
 # Remove the first item using .pop(0).
-
+foods.pop(0)
 # Reverse your list using .reverse().
+foods.reverse()
 
+print(foods)
 # Create a list of 3 lists (matrix), and access the middle element.
+
+
 
 
 
