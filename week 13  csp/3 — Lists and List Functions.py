@@ -103,8 +103,34 @@ foods.reverse()
 print(foods)
 # Create a list of 3 lists (matrix), and access the middle element.
 
+#sets = {1,2,3}
+# sets are unordered collections of unique items
+# sets do not support indexing or slicing
+#sets are mutable, meaning you can add or remove items 
+#sets are created using curly brackets {}
+my_set = {1,2,3,4,5}
+print(my_set) # {1,2,3,4,5}
+print(type(my_set) # {1,2,3,4,5}
+#add an item to the set
+my_set.add (6)
+print(my_set) 
+# remove an item from the set
+my_set.remove(3)
+print(my_set) 
 
+#check if an item is in the set
+print(4 in my_set) #true
+print(3 in my_set) # false
 
+#tuples are ordered collections of items
+#tuples are immutable, meaning you can modify them after creation
+#tuples are created using parentheses ()
+my_tuple = (1,2,3,4,5)
+print(my_tuple)
+print(type(my_tuple))
+print(my_tuple[0]0
+print(my_tuple[1:4])
+#try to modify the tuple (will raise an error)
 
 
 # Notes 
